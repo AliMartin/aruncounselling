@@ -1,0 +1,114 @@
+.main-container a,
+.main-container a:visited {
+  color: #414694;
+  text-decoration: underline;
+  outline: none;
+}
+
+.main-container a:focus,
+.main-container a:hover,
+.main-container a:active {
+  color: #8dc22b;
+  text-decoration: underline;
+  outline: none;
+}
+
+
+
+.btn,
+.btn:visited,
+.supernav-button a,
+.supernav-button a:visited,
+.simple-gmap-link a,
+.simple-gmap-link a:visited,
+.node-readmore a,
+.node-readmore a:visited,
+form#user-login-form button,
+form#user-login-form button:visited,
+#block-webform .webform-button--submit,
+#block-webform .webform-button--submit:visited,
+.field--name-field-block-link a,
+.field--name-field-block-link a:visited {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px solid #414694;
+  background-color: #414694;
+  padding: 7px 15px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  outline: none;
+  text-decoration: none;
+  -webkit-transition-duration: 500ms;
+  -moz-transition-duration: 500ms;
+  -o-transition-duration: 500ms;
+  transition-duration: 500ms;
+  letter-spacing: 1px;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.supernav-button a:hover,
+.supernav-button a:focus,
+.supernav-button a:active,
+.simple-gmap-link a:hover,
+.simple-gmap-link a:focus,
+.simple-gmap-link a:active,
+.node-readmore a:hover,
+.node-readmore a:focus,
+.node-readmore a:active,
+form#user-login-form button:hover,
+form#user-login-form button:focus,
+form#user-login-form button:active,
+#block-webform .webform-button--submit:hover,
+#block-webform .webform-button--submit:focus,
+#block-webform .webform-button--submit:active,
+.field--name-field-block-link a:hover,
+.field--name-field-block-link a:focus,
+.field--name-field-block-link a:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #9396C7;
+  border: 1px solid #9396C7;
+}
+
+.supernav-donate.supernav-donate a {
+  border: 1px solid #C79144;
+  background-color: #C79144;
+}
+
+.supernav-donate.supernav-donate a:hover,
+.supernav-donate.supernav-donate a:focus,
+.supernav-donate.supernav-donate a:active {
+  border: 1px solid #FFC370;
+  background-color: #FFC370;
+}
+
+
+
+.supernav-apply a,
+.supernav-apply a:visited {
+    border: 1px solid #4C872E;
+  background-color: #4C872E;
+}
+
+.supernav-apply a:hover,
+.supernav-apply a:focus,
+.supernav-apply a:active {
+  border: 1px solid #63B03C;
+  background-color: #63B03C;
+}
+
+
+
+.field--name-field-block-link {
+  margin-top: 12px; 
+}
+
+.btn i {
+  margin-right: 5px;
+}

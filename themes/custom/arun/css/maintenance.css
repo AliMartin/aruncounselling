@@ -1,0 +1,39 @@
+body.front.maintenance-page {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 60px;
+}
+
+body.front.maintenance-page .main-container {
+  background-color: #fff;
+  padding: 0;
+}
+
+body.front.maintenance-page h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  margin: 0 0 20px 0;
+  padding: 0;
+  text-align: left;
+}
+
+body.front.maintenance-page header {
+  display: none;
+}
+
+.maintenance-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.maintenance-text {
+  margin-bottom: 10px;
+}
+
+.maintenance-telephone {
+  margin-top: 10px;
+}

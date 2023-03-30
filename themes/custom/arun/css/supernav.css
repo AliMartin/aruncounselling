@@ -1,0 +1,193 @@
+
+/* Super nav */
+
+@media screen and (min-width: 768px) {
+  #supernav {display: none;}
+}
+
+#block-banner .banner-inner-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;  
+}
+
+#supernav {
+  z-index: 1001;
+  background: #d3eafa;
+  color: #fff;
+  padding: 15px 0;
+}
+
+#block-supernavbuttons {
+  display: flex;
+  justify-content: center;
+}
+
+.supernav-button {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.supernav-button i {
+  margin-right: 5px;
+}
+
+/*
+@media screen and (max-width: 359px) {
+  .supernav-button a {
+    letter-spacing: 0px !important;
+    font-size: 11px !important;
+    line-height: 11px !important;
+    width: 130px !important;
+  }
+} 
+*/
+
+/* Banner image */
+
+@media screen and (max-width: 767px) {
+  #banner {display: none;}
+}
+
+#banner {
+  padding: 0;
+  z-index: 1001;
+}
+
+
+#block-banner {
+  background: #d3eafa;
+  background: -moz-linear-gradient(bottom, #d3eafa 0%, #fff 100%);
+  background: -webkit-linear-gradient(bottom, #d3eafa 0%,#fff 100%);
+  background: linear-gradient(to top, #d3eafa 0%,#fff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3eafa', endColorstr='#fff',GradientType=1 );
+  color: #fff;
+}
+
+.banner-outer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.banner-outer-container > span {
+  display: block;
+  text-align: center;
+}
+
+.banner-outer-container .banner-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-size: 48px;
+  line-height: 48px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #8dc22b;
+}
+
+.banner-logo img {
+  width: 250px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.banner-outer-container .banner-subtitle {
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+
+#block-supernavbuttons .field--name-body {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+
+.supernav-button {
+  display: inline-flex;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.supernav-button a {
+  font-size: 14px !important;
+  line-height: 14px !important;
+  padding: 7px 15px;
+  text-align: center;
+  width: 160px;
+}
+
+.supernav-button i {
+  margin-right: 5px;
+}
+
+/*
+@media screen and (max-width: 549px) {
+  #block-supernavbuttons .supernav-button a {
+    font-size: 13px !important;
+    line-height: 13px !important;
+    padding: 7px 10px !important;
+    width: 110px;
+  }
+}
+*/
+
+/* 7 June 2022: New Apply for Counselling button and container */
+
+.banner-bottom-container {
+  margin-top: 10px;
+}
+
+.banner-bottom-container .supernav-apply a {
+  width: 230px;
+}
+
+@media screen and (max-width: 767px) {
+  #supernav .region-supernav {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 10px;
+  }
+  #supernav .region-supernav span.button-text {
+    display: none;
+  }
+  #block-supernavbuttons .supernav-button a {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #block-supernavbuttons .supernav-button i {
+    margin: 0;
+  }
+  #block-applyforcounselling .supernav-button a {
+    width: 230px;
+    height: 40px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  #block-supernavbuttons .supernav-button a {
+    width: 30px;
+    height: 30px;
+    font-size: 12px !important;
+  }
+  #block-applyforcounselling .supernav-button a {
+    width: 200px;
+    height: 30px;
+    font-size: 12px !important;
+  }
+}

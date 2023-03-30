@@ -1,0 +1,441 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+
+
+
+.user-logged-in .login-menu {
+  display: none;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  margin-top: 38px;
+  margin-bottom: 12px;
+}
+
+h1.page-header {
+  text-align: center;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+.not-front .main-container {
+  max-width: 800px;
+  padding: 60px 30px 90px 30px;
+}
+
+.page-header {
+  border-bottom: none;
+}
+
+
+
+#hero_image img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 60px;
+}
+
+
+
+.field--name-field-faq {
+  margin: 30px 0;
+}
+
+
+/* Byline */
+.main-container article > footer,
+#block-views-block-announcements-block-1 .views-field-created {
+  color: #888;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.field--name-field-media-image {
+  margin-bottom: 36px;
+}
+
+
+
+/* Body images */
+.main-container .field--name-body .field--name-field-media-image img {
+  margin-bottom: 5px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+figcaption {
+  font-weight: 500;
+  margin-bottom: 18px;
+  font-size: 16px;
+}
+
+
+
+/* Webform */
+
+.form-control {
+  font-size: 18px;
+  line-height: 1.42857143;
+  color: #333;
+  height: inherit;
+  padding: 8px 18px;
+  border: 1px solid #414694;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.form-control:focus {
+  border-color: #9396c7;
+  outline: 0;
+  -webkit-box-shadow: inherit;
+  box-shadow: inherit;
+}
+
+
+
+/* Login */
+
+form#user-login-form {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background: #d3eafa;
+  color: #000;
+}
+
+p.forgot-password a,
+p.forgot-password a:visited {
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 1px;
+}
+
+p.forgot-password a:active,
+p.forgot-password a:focus,
+p.forgot-password a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+
+
+/* Donate */
+
+#block-donate {
+  background-image: url('/themes/custom/arun/images/tissues.jpg');
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  padding: 40px; 
+}
+
+#block-donate h2 {
+  margin: 0;
+}
+
+#block-donate .field--name-body {
+  max-width: 960px;
+  margin: 60px auto;
+  background-color: rgba(255,255,255,0.9);
+  padding: 30px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 0px 0px rgba(0,0,0,.1);
+  -moz-box-shadow: 0px 3px 0px 0px rgba(0,0,0,.1);
+  box-shadow: 0px 3px 0px 0px rgba(0,0,0,.1);
+}
+
+#block-donate .field--name-body > div {
+  margin: 15px 0;
+}
+
+/* Latest announcements */
+
+#block-views-block-announcements-block-1 {
+  background-color: #9396c7;
+  background-image: url('/themes/custom/arun/images/seagull-1402944.jpg');
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  padding: 40px;
+}
+
+#block-views-block-announcements-block-1 > h2 {
+  margin-top: 0;
+  color: #fff;
+/*   text-shadow: 0px 2px 1px rgba(0,0,0,0.4); */
+}
+
+#block-views-block-announcements-block-1 h3 {
+  margin-top: 0;
+}
+
+#block-views-block-announcements-block-1 .views-row {
+  margin-bottom: 40px;
+}
+
+#block-views-block-announcements-block-1 .view-content {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: rgba(255,255,255,0.9);
+  padding: 30px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 0px 0px rgba(0,0,0,.1);
+  -moz-box-shadow: 0px 3px 0px 0px rgba(0,0,0,.1);
+  box-shadow: 0px 3px 0px 0px rgba(0,0,0,.1);
+}
+
+#block-views-block-announcements-block-1 .views-field-body {
+  margin-bottom: 10px;
+}
+
+
+/* Student placements */
+
+#block-studentplacements {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+  text-align: center;
+}
+
+
+
+/* About Arun Counselling blocks */
+
+body.front .main-container {
+  background: #d3eafa;
+  padding: 30px 15px 0 15px;
+}
+
+body.front .main-container h1 {
+  color: #000;
+  font-size: 48px;
+  line-height: 52px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (max-width: 549px) {
+  body.front .main-container h1 {
+    font-size: 36px;
+    line-height: 38px;
+    margin: 0;
+  }
+}
+
+#block-aboutaruncounselling-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 40px auto 20px auto;
+}
+
+#block-aboutaruncounselling-2 > section {
+  position: relative;
+  width: 300px;
+  margin: 0 15px 30px 15px;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 0px 0px rgba(0,0,0,.1);
+  -moz-box-shadow: 0px 3px 0px 0px rgba(0,0,0,.1);
+  box-shadow: 0px 3px 0px 0px rgba(0,0,0,.1);
+}
+
+#block-aboutaruncounselling-2 > section h2 {
+  margin-top: 0;
+}
+
+#block-aboutaruncounselling-2 .field--name-body {
+  margin-bottom: 60px;
+}
+
+#block-aboutaruncounselling-2 .field--name-field-block-link {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+#block-aboutaruncounselling-2 .field--name-field-block-link a {
+  width: 230px;
+}
+
+
+/* Announcements */
+
+.page-listing .views-row {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+.page-listing .views-row:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.page-listing h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.page-listing h2 a {
+  text-decoration: none;
+}
+
+.page-listing .field--name-body {
+  margin-bottom: 30px;
+}
+
+
+
+/* Attachments */
+
+.field--name-field-attachments,
+.field--name-field-directors-reports,
+.field--name-field-treasurers-reports,
+.field--name-field-agm {
+  margin-top: 30px;
+}
+
+.field--name-field-directors-reports,
+.field--name-field-treasurers-reports,
+.field--name-field-agm {
+  margin-bottom: 60px;
+}
+
+.field--name-field-attachments .field--label,
+.field--name-field-directors-reports .field--label,
+.field--name-field-treasurers-reports .field--label,
+.field--name-field-agm .field--label {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 38px;
+    margin-bottom: 12px;
+}
+
+@media screen and (min-width: 500px) {
+  .field--name-field-attachments .file-icon,
+  .field--name-field-directors-reports .file-icon,
+  .field--name-field-treasurers-reports .file-icon,
+  .field--name-field-agm .file-icon {
+    font-size: 400%;
+  }
+  .field--name-field-attachments .file,
+  .field--name-field-directors-reports .file,
+  .field--name-field-treasurers-reports .file,
+  .field--name-field-agm .file {
+    font-size: 100%;
+  }
+}
+
+
+
+/* Events */
+
+.page-node-type-event .field--name-field-date,
+.view-events .field--name-field-date {
+  display: inline-block;
+  background-color: #9396c7;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 7px 15px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+section.block-views-blockevents-block-1 {
+  background-color: #414694;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+section.block-views-blockevents-block-1 .view-content {
+  background-color: #fff;
+  color: #000;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+section.block-views-blockevents-block-1 h2.block-title,
+section.block-views-blockevents-block-1 h3 {
+  margin-top: 0;
+}
+
+section.block-views-blockevents-block-1 .views-field-field-date {
+  display: inline-block;
+  background-color: #9396c7;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 7px 15px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+section.block-views-blockevents-block-1 .views-field-body {
+  margin-bottom: 10px;
+}
+
+
+.captcha {
+  display: flex;
+  justify-content: center;
+}
