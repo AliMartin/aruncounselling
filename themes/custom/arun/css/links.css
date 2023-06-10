@@ -27,6 +27,8 @@ form#user-login-form button,
 form#user-login-form button:visited,
 #block-webform .webform-button--submit,
 #block-webform .webform-button--submit:visited,
+#empower .contact-button a,
+#empower .contact-button a:visited,
 .field--name-field-block-link a,
 .field--name-field-block-link a:visited {
   font-size: 14px;
@@ -67,6 +69,9 @@ form#user-login-form button:active,
 #block-webform .webform-button--submit:hover,
 #block-webform .webform-button--submit:focus,
 #block-webform .webform-button--submit:active,
+#empower .contact-button a:hover,
+#empower .contact-button a:focus,
+#empower .contact-button a:active,
 .field--name-field-block-link a:hover,
 .field--name-field-block-link a:focus,
 .field--name-field-block-link a:active {

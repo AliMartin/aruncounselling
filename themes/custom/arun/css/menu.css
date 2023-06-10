@@ -21,12 +21,12 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 899px) {
+@media (min-width: 768px) and (max-width: 991px) {
   ul.navbar-nav {
-    font-size: 15px;
+    font-size: 14px;
   }
   .nav > li > a {
-    padding: 10px 14px;
+    padding: 10px 13px;
   }
 } 
 

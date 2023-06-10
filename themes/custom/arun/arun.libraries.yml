@@ -10,6 +10,7 @@ framework:
       css/accordion.css: {}
       css/pagination.css: {}
       css/maintenance.css: {}
+      css/empower.css: {}
 
 # Uncomment for LESS source JavaScript files.
 #  js:

@@ -1,0 +1,55 @@
+#empower {
+  text-align: center;
+}
+
+#empower > div {
+  margin-bottom: 30px;
+}
+
+#empower > div:last-of-type {
+  margin-bottom: -90px;
+}
+
+#empower h2 {
+  margin-top: 0;
+}
+
+#empower img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+#empower .what-is-empower {
+}
+
+
+#empower .supporting-your-employees {
+  background: #d3eafa;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+
+#empower .the-empower-service {
+
+}
+
+
+#empower .accessing-the-service {
+}
+
+
+#empower .the-cost {
+  background: #414694;
+  color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+
+}
+
+
+#empower .about-us {
+
+}
